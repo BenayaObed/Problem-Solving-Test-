@@ -12,7 +12,6 @@ func OEISA000124(n int) []int {
 	for i := 1; i < n; i++ {
 		sequence[i] = sequence[i-1] + i
 	}
-
 	return sequence
 }
 
